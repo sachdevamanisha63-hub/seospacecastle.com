@@ -546,3 +546,136 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+/* marquee css  */
+.cross-marquee {
+  position: relative;
+  padding: 120px 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+.marquee-strip {
+  position: absolute;
+  left: -10%;
+  width: 120%;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.strip-white {
+  top: 40px;
+  background: #ffffff;
+  transform: rotate(2.5deg);
+  z-index: 1;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
+}
+
+.strip-orange {
+  top: 50px;
+  background: #f95d47;
+  transform: rotate(-3deg);
+  z-index: 2;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marqueeMove 30s linear infinite;
+  -webkit-animation: marqueeMove 30s linear infinite;
+}
+
+.reverse {
+  animation-direction: reverse;
+}
+
+.marquee-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-right: 55px;
+  white-space: nowrap;
+  font-size: 30px;
+  font-weight: 700;
+  color: #141414;
+}
+
+.marquee-item span {
+  font-size: 24px;
+}
+
+
+
+@keyframes marqueeMove {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+}
+
+@media (max-width: 991px) {
+  .marquee-strip {
+    height: 70px;
+  }
+
+  .marquee-item {
+    font-size: 22px;
+    margin-right: 35px;
+  }
+
+  .work-btn {
+    right: 80px;
+    padding: 12px 22px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cross-marquee {
+    padding: 90px 0;
+  }
+
+  .marquee-strip {
+    height: 58px;
+  }
+
+  .marquee-item {
+    font-size: 16px;
+    gap: 10px;
+    margin-right: 22px;
+  }
+
+  .work-btn {
+    right: 20px;
+    padding: 10px 18px;
+    font-size: 12px;
+  }
+}
+
+.marquee-btn {
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 30px;
+  flex-shrink: 0;
+}
+
+.white-btn {
+  background: #f47c45;
+  color: #fff;
+}
+
+.dark-btn {
+  background: #111;
+  color: #fff;
+}
