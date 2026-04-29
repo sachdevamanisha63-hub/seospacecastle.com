@@ -33,15 +33,15 @@ const Footer: React.FC = () => {
                         <div className="office-details mb-5 mt-50">
                             <div className="detail-item d-flex align-items-center mb-3">
                                 <FaMapMarkerAlt className="me-3 text-primary" />
-                                <span>BLOCK-F, SEO Space Castle, India</span>
+                                <span>4th floor, F Block, Mohali Citi Center, 2 242, Gmada Aerocity, Sahibzada Ajit Singh Nagar, Punjab 140306</span>
                             </div>
                             <div className="detail-item d-flex align-items-center mb-3">
                                 <FaEnvelope className="me-3 text-primary" />
-                                <a href="mailto:info@seospacecastle.com" className="text-white text-decoration-none">info@seospacecastle.com</a>
+                                <a href="mailto:support@seospacecastle.com" className="text-white text-decoration-none">support@seospacecastle.com</a>
                             </div>
                             <div className="detail-item d-flex align-items-center">
                                 <FaPhoneAlt className="me-3 text-primary" />
-                                <span>+1 234 567 890</span>
+                                <span>+91 6239845962</span>
                             </div>
                         </div>
 
@@ -109,11 +109,11 @@ const Footer: React.FC = () => {
             <Container>
                 <Row className="footer-bottom-bar gy-3 align-items-center">
                     <Col xl={6} md={12} className="text-center text-xl-start">
-                        © 2024 AGENCA. All Rights Reserved.
+                        © Copyright 2020 – 2026
                     </Col>
                     <Col xl={6} md={12} className="d-flex justify-content-center justify-content-xl-end gap-4">
-                        <span>Powered By Webflow</span>
-                        <span>Built By Rick Mummery</span>
+                        <span>SEO Space Castle</span>
+                        <span>All Rights Reserved</span>
                     </Col>
                 </Row>
             </Container>
