@@ -675,8 +675,6 @@
   z-index: 10;
 }
 
-
-
 .white-btn {
   background: #f47c45;
   color: #fff;
@@ -685,4 +683,140 @@
 .dark-btn {
   background: #111;
   color: #fff;
+}
+
+
+/* reels section  */
+
+
+
+
+.reels-section {
+  position: relative;
+  padding: 110px 0;
+  background: #000;
+  overflow: hidden;
+}
+
+.reels-heading {
+  max-width: 760px;
+  margin: 0 auto 60px;
+  position: relative;
+  z-index: 2;
+}
+
+.reels-heading span {
+  color: #ff7a45;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.reels-heading h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 15px 0;
+  font-weight: 800;
+}
+
+.reels-heading h2 strong {
+  color: #ff7a45;
+}
+
+.reels-heading p {
+  color: #bdbdbd;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.reels-slider {
+  padding-bottom: 20px;
+}
+
+.reel-card {
+  background: #111;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 14px;
+  transition: 0.3s;
+}
+
+.reel-card:hover {
+  transform: translateY(-8px);
+  border-color: #ff7a45;
+}
+
+.reel-video {
+  position: relative;
+  height: 360px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.reel-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reel-video::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.65), transparent);
+}
+
+.play-btn {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff7a45, #ff4f71);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  z-index: 3;
+  font-size: 16px;
+}
+
+.reel-content {
+  padding: 18px 6px 6px;
+}
+
+.reel-content h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.reel-content p {
+  color: #bdbdbd;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.reels-bottom-text {
+  margin-top: 45px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .reels-heading h2 {
+    font-size: 34px;
+  }
+
+  .reel-video {
+    height: 300px;
+  }
+
+  .reels-bottom-text {
+    font-size: 18px;
+  }
 }

@@ -10,7 +10,7 @@ const HeroHome: React.FC = () => {
                     <Row className="banner-top-row">
                         <Col xs={12} className="text-right">
                             <div className="get-started-box text-white ">
-                                GET STARTED <span className="get-started-arrow"><ArrowRight className='ms-2' /></span>
+                                Let’s Connect <span className="get-started-arrow"><ArrowRight className='ms-2' /></span>
                             </div>
                             <p className="welcome-text mt-40 text-white">WELCOME</p>
                             <p className="description-text text-white">
