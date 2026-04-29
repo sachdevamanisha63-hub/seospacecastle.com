@@ -26,33 +26,35 @@ const Marquee = () => {
     <section className="cross-marquee">
       <div className="marquee-strip strip-white">
         <div className="marquee-track reverse">
-          {topList.map((item, i) => (
-            <div
-              key={i}
-              className={`marquee-item ${
-                item === "Work With Us" ? "marquee-btn dark-btn" : ""
-              }`}
-            >
-              {item !== "Work With Us" && <span>✦</span>}
-              {item}
-            </div>
-          ))}
+          {topList.map((item, i) =>
+            item === "Work With Us" ? (
+              <a href="/contact" key={i} className="marquee-item marquee-btn dark-btn">
+                {item}
+              </a>
+            ) : (
+              <div key={i} className="marquee-item">
+                <span>✦</span>
+                {item}
+              </div>
+            )
+          )}
         </div>
       </div>
 
       <div className="marquee-strip strip-orange">
         <div className="marquee-track">
-          {bottomList.map((item, i) => (
-            <div
-              key={i}
-              className={`marquee-item ${
-                item === "Work With Us" ? "marquee-btn dark-btn" : ""
-              }`}
-            >
-              {item !== "Work With Us" && <span>✦</span>}
-              {item}
-            </div>
-          ))}
+          {bottomList.map((item, i) =>
+            item === "Work With Us" ? (
+              <a href="/contact" key={i} className="marquee-item marquee-btn dark-btn">
+                {item}
+              </a>
+            ) : (
+              <div key={i} className="marquee-item">
+                <span>✦</span>
+                {item}
+              </div>
+            )
+          )}
         </div>
       </div>
     </section>
