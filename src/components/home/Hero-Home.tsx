@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { ArrowRight, ArrowUpRight } from "react-bootstrap-icons";
+import { EmojiSmile } from "react-bootstrap-icons";
 
 const HeroHome: React.FC = () => {
     return (
@@ -10,7 +11,7 @@ const HeroHome: React.FC = () => {
                     <Row className="banner-top-row">
                         <Col xs={12} className="text-right">
                             <div className="get-started-box text-white ">
-                                Let’s Connect <span className="get-started-arrow"><ArrowRight className='ms-2' /></span>
+                             Let’s Connect <span className="get-started-arrow wave-hand" style={{ fontSize: "22px" }}>👋</span>
                             </div>
                             <p className="welcome-text mt-40 text-white">WELCOME</p>
                             <p className="description-text text-white">
