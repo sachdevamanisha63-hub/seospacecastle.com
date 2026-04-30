@@ -9,7 +9,7 @@ const WhyChoose: React.FC = () => {
                 <Row className="section-row align-items-center">
                     <Col lg={7}>
                         <div className="section-title">
-                            <h3 className="wow fadeInUp">why choose</h3>
+                            <h3 className="wow fadeInUp">Why Choose Us</h3>
                             <h2 className="text-anime-style-2" data-cursor="-opaque">
                                 Expertise for <span className="text-highlight">your digital</span> growth journey
                             </h2>
@@ -66,7 +66,7 @@ const WhyChoose: React.FC = () => {
                                     <line x1="30" y1="60" x2="70" y2="40" stroke="white" strokeWidth="1" />
                                     <text fill="white" fontSize="6.5" fontWeight="bold">
                                         <textPath xlinkHref="#circlePath">
-                                            FREE CONSULTING • FREE CONSULTING •
+                                            FREE CONSULTATION • FREE CONSULTATION •
                                         </textPath>
                                     </text>
                                 </svg>

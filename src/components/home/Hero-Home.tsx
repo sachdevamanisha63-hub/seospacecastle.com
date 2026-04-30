@@ -58,7 +58,7 @@ const HeroHome: React.FC = () => {
                                     <line x1="30" y1="60" x2="70" y2="40" stroke="white" strokeWidth="1" />
                                     <text fill="white" fontSize="8" fontWeight="bold" letterSpacing="1">
                                         <textPath xlinkHref="#circlePath" startOffset="0%">
-                                            FREE CONSULTING • FREE CONSULTING •
+                                            FREE CONSULTATION • FREE CONSULTATION •
                                         </textPath>
                                     </text>
                                 </svg>
