@@ -11,7 +11,7 @@ const WhyChoose: React.FC = () => {
                         <div className="section-title">
                             <h3 className="wow fadeInUp">Why Choose Us</h3>
                             <h2 className="text-anime-style-2" data-cursor="-opaque">
-                                Expertise for <span className="text-highlight">your digital</span> growth journey
+                                Expertise for <span className="text-gradient">your digital</span> growth journey
                             </h2>
                         </div>
                     </Col>

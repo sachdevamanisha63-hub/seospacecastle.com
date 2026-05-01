@@ -5,7 +5,9 @@ import ServiceSection from "./Service-Section";
 import WhyChoose from "./WhyChoose";
 import Reels from "./Reels";
 import ContactForm from "./Contact-Form";
-import Marquee from "./Marquee";
+import ServiceArc from "./Marquee";
+import BlogSection from "./BlogSection";
+import FAQs from "./Faqs";
 
 
 const HomePage = () => {
@@ -14,11 +16,11 @@ const HomePage = () => {
             <HeroHome />
             <ServiceSection />
             <WhyChoose />
-            <Reels/>
-          
-            <ContactForm/>
-               <Marquee/>
-           
+            <Reels />
+            <ContactForm />
+            <ServiceArc />
+            <FAQs />
+            <BlogSection />
         </>
     );
 };

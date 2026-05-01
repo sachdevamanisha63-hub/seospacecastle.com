@@ -27,13 +27,14 @@ const ContactForm = () => {
 
     return (
         <section className="cosmic-contact">
+
             <div className="corner-shape left"></div>
             <div className="corner-shape right"></div>
 
             <div className="form-wrapper">
                 <div className="glass-content">
                     <div className="header-area">
-                        <h2>Your Vision <span className="glow-text">Our Space Castle</span></h2>
+                        <h2>Your Vision <span className="text-gradient">Our Space Castle</span></h2>
                         <p>Sync your project with our global network.</p>
                     </div>
 

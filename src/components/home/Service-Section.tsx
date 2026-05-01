@@ -79,6 +79,12 @@ const ServiceSection = () => {
 
     return (
         <section ref={containerRef} className="services-section-wrapper">
+            <div className="cosmic-bg">
+                <div className="glow-sphere gold-glow"></div>
+                <div className="glow-sphere red-glow"></div>
+            </div>
+
+
             <Container>
                 <Row className="align-items-center justify-content-center">
                     <Col lg={4} md={12} className="features-column left-col">

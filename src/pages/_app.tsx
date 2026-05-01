@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Header />
-      <HomePage />
+      {/* <HomePage /> */}
       <Component {...pageProps} />
       <Footer />
     </>

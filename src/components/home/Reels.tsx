@@ -29,12 +29,12 @@ const reels = [
   {
     title: "Team Fun",
     text: "Memories made together.",
-   video: "/assets/videos/video5.mp4",
+    video: "/assets/videos/video5.mp4",
   },
-   {
+  {
     title: "Team Fun",
     text: "Memories made together.",
-   video: "/assets/videos/video6.mp4",
+    video: "/assets/videos/video6.mp4",
   },
 ];
 
@@ -47,7 +47,7 @@ const Reels = () => {
             <div className="reels-heading text-center">
               <span>Life At SeoSpaceCastle</span>
               <h2>
-                Where <strong>Creativity</strong> Drives Results
+                Where <strong className="text-gradient">Creativity</strong> Drives Results
               </h2>
               <p>
                 {/* More than a workplace — a team that builds, learns, celebrates,
@@ -105,7 +105,7 @@ const Reels = () => {
         </Swiper>
 
         <div className="reels-bottom-text text-center">
-          
+
         </div>
       </Container>
     </section>
